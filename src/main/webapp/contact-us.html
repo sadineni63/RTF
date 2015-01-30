@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Contact Us | Flat Theme</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="images/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114"
+	href="images/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72"
+	href="images/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed"
+	href="images/ico/apple-touch-icon-57-precomposed.png">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#header").load("header.html");
+		$("#footer").load("footer.html");
+	});
+</script>
+</head>
+<!--/head-->
+<body>
+	<div id="header"></div>
+
+	<section id="title" class="emerald">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>Contact Us</h1>
+					<p>We most welcome your Suggestions and Feedback</p>
+				</div>
+				<div class="col-sm-6">
+					<ul class="breadcrumb pull-right">
+						<li><a href="home.html">Home</a></li>
+						<li class="active">Contact Us</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/#title-->
+
+	<section id="contact-page" class="container">
+		<div class="row">
+			<div class="col-sm-5">
+				<h4>Contact Form</h4>
+				<div class="status alert alert-success" style="display: none"></div>
+				<form id="main-contact-form" class="contact-form"
+					name="contact-form" method="post" action="sendemail.php"
+					role="form">
+					<div class="row">
+						<div class="form-group">
+							<input type="text" class="form-control" required="required"
+								placeholder="First Name">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" required="required"
+								placeholder="Last Name">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" required="required"
+								placeholder="Email address">
+						</div>
+
+						<textarea name="message" id="message" required="required"
+							class="form-control" rows="5" placeholder="Message"></textarea>
+						<br>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-lg">Send
+								Message</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!--/.col-sm-8-->
+			<div class="col-sm-7" style="padding-left: 5%;">
+				<h4>Our Location</h4>
+				<iframe width="600" height="200" frameborder="0" style="border: 0"
+					src="https://www.google.com/maps/embed/v1/place?q=Saincher%20Palace&key=AIzaSyCZ-ubVDsVFpdeB7bkJ-Sc2li10_dkefO8"></iframe>
+				<h4>Address</h4>
+				<address>
+					<strong>Right Theology Forum,</strong><br> 401A, Saincher
+					Palace<br> East Marredpally, Secunderabad,<br> <abbr
+						title="Mobile">Phone:</abbr> +919502264284.
+				</address>
+				<h4>Newsletter</h4>
+				<form role="form">
+					<div class="input-group">
+						<input type="text" class="form-control" autocomplete="off"
+							placeholder="Enter your email"> <span
+							class="input-group-btn">
+							<button class="btn btn-danger" type="button">Go!</button>
+						</span>
+					</div>
+				</form>
+			</div>
+			<!--/.col-sm-4-->
+		</div>
+	</section>
+	<!--/#contact-page-->
+
+<div id="footer"></div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
